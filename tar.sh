@@ -10,5 +10,5 @@ fi
 dir="django-theme-${version}"
 
 mkdir $dir
-cp starter-kit*.el $dir
-tar cf starter-kit-${version}.tar $dir
+cp django-theme*.el $dir
+tar cf django-theme-${version}.tar $dir
