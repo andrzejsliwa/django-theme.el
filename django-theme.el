@@ -5,7 +5,7 @@
 ;; Author: Andrzej Sliwa
 ;; URL: http://github/anrzejsliwa/django-theme
 ;; Version: 1.0.0
-;; 
+;;
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
@@ -28,6 +28,7 @@
  '(cursor ((t (:foreground "#336442"))))
  '(region ((t (:background "#1c482b"))))
  '(mode-line ((t (:background "#1c482b" :foreground "#000000"))))
+ '(linum ((t (:background "#001a10" :foreground "#f8f8f8"))))
 ; saved for future customization
 ; '(mode-line-inactive ((t (:background "#e5e5e5" :foreground "#333333"))))
  '(fringe ((t (:background "#001a10"))))
@@ -47,12 +48,12 @@
  '(font-lock-type-face ((t (:foreground "#ead47a"))))
  '(font-lock-variable-name-face ((t (:foreground "#497958"))))
  '(font-lock-warning-face ((t (:foreground "#ff6800" :weight bold))))
- '(font-lock-doc-string-face ((t (:foreground "#91BB9E")))) 
+ '(font-lock-doc-string-face ((t (:foreground "#91BB9E"))))
  '(link ((t (:underline t))))
  '(link-visited ((t (:underline t))))
  '(button ((t (:underline t))))
 ; saved for future customization
-; '(isearch ((t (...)))) 
+; '(isearch ((t (...))))
 ; '(lazy-highlight ((t (...))))
 ; '(whitespace-tab ((((class color) (background dark)) (:background "grey5" :foreground "grey10"))))
 ; '(whitespace-indentation ((t (:background "#111"))))
