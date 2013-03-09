@@ -1,2 +1,2 @@
-(define-package "django-theme" "1.0.2"
+(define-package "django-theme" "1.1.0"
                 "Django Theme")
