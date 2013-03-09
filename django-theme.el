@@ -93,6 +93,8 @@
 
 ;; Local Variables:
 ;; no-byte-compile: t
+;; indent-tabs-mode: nil
 ;; End:
 
-;;; django-theme.el  ends here
+;;; django-theme.el ends here
+
