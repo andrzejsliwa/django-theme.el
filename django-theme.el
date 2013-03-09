@@ -1,10 +1,10 @@
 ;;; django-theme.el --- Custom face theme for Emacs
 
-;; Copyright (C) 2011 Andrzej Sliwa
+;; Copyright (C) 2012 Andrzej Sliwa
 
 ;; Author: Andrzej Sliwa
 ;; URL: http://github/anrzejsliwa/django-theme
-;; Version: 1.1.0
+;; Version: 1.2.0
 ;;
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -81,6 +81,13 @@
     '(magit-diff-del ((t (:foreground "#f8f8f8" :background "#FF6800" :weight bold :underline nil))))
     '(magit-diff-none ((t (:foreground "#497958" :background "#002116" :inherit nil))))
     '(header-line ((t (:background "#1c482b" :foreground "#000000" :box nil)))))
+
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 
 (provide-theme 'django)
 
