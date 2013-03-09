@@ -4,7 +4,7 @@
 
 ;; Author: Andrzej Sliwa
 ;; URL: http://github/anrzejsliwa/django-theme
-;; Version: 1.2.0
+;; Version: 1.3.0
 ;;
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
