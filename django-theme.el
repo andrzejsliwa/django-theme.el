@@ -4,7 +4,7 @@
 
 ;; Author: Andrzej Sliwa
 ;; URL: http://github/anrzejsliwa/django-theme
-;; Version: 1.3.0
+;; Version: 1.4.0
 ;;
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -23,18 +23,24 @@
 
 (custom-theme-set-faces
     'django
-    '(default ((t (:background "#002116" :foreground "#f8f8f8"))))
+    '(default ((t (:background "#00291d" :foreground "#f8f8f8"))))
     '(cursor ((t (:foreground "#336442"))))
     '(region ((t (:foreground "#f8f8f8" :background "#245032"))))
+    '(highlight ((t (:background "#245032"))))
+    '(match ((t (:background "#96dd3b" :foreground "#000000"))))
     '(mode-line ((t (:background "#1c482b" :foreground "#000000" :box nil))))
     '(mode-line-inactive ((t (:background "#1a382b" :foreground "#000000" :box nil))))
     '(fringe ((t (:background "#001a10"))))
-    '(vertical-border ((nil (:foreground "grey20"))))
     '(linum ((t (:background "#001a10" :foreground "#245032"))))
+    '(isearch ((t (:background "#96dd3b" :foreground "#000000"))))
+    '(isearch-fail ((t (:background "#ff6800" :foreground "#f8f8f8"))))
     '(vertical-border ((t (:foreground "#001a10"))))
+    '(lazy-highlight ((t (:background "#497958" :foreground "#f8f8f8"))))
     '(ido-first-match ((t (:foreground "#FFC557"))))
     '(ido-subdir ((t (:foreground "#3B7C55"))))
     '(hl-line ((t (:background "#001a10"))))
+    '(flycheck-error    ((t (:foreground "#002116" :background "#FF6800" :weight bold :underline nil))))
+    '(flycheck-warning  ((t (:foreground "#002116" :background "#084Eb9" :weight bold :underline nil))))
     '(flymake-errline  ((t (:foreground "#002116" :background "#FF6800" :weight bold :underline nil))))
     '(flymake-warnline ((t (:foreground "#002116" :background "#084Eb9" :weight bold :underline nil))))
     '(minibuffer-prompt ((t (:foreground "#f8f8f8" :weight bold))))
@@ -80,7 +86,13 @@
     '(magit-diff-add ((t (:foreground "#f8f8f8" :background "#084Eb9" :weight bold :underline nil))))
     '(magit-diff-del ((t (:foreground "#f8f8f8" :background "#FF6800" :weight bold :underline nil))))
     '(magit-diff-none ((t (:foreground "#497958" :background "#002116" :inherit nil))))
-    '(header-line ((t (:background "#1c482b" :foreground "#000000" :box nil)))))
+    '(header-line ((t (:background "#1c482b" :foreground "#000000" :box nil))))
+    '(sp-show-pair-match-face ((t (:background "#1c482b" :box nil))))
+    '(sp-pair-overlay-face ((t (:background "#1c482b" :box nil))))
+    '(compilation-info ((t (:foreground "#91bb9e"))))
+    '(anzu-mode-line ((t (:foreground "#91bb9e"))))
+    '(which-func ((t (:foreground "#91bb9e"))))
+)
 
 ;;;###autoload
 (and load-file-name
@@ -97,4 +109,3 @@
 ;; End:
 
 ;;; django-theme.el ends here
-
